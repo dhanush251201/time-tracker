@@ -110,3 +110,20 @@
 2026-01-31 14:24:05 -05:00: 
 2026-01-31 14:24:05 -05:00:   ➜  Local:   http://localhost:6969/
 2026-01-31 14:24:05 -05:00:   ➜  Network: http://100.69.39.72:6969/
+2026-02-23 15:52:59 -05:00: 3:52:59 PM [vite] hmr update /src/pages/EntryPage.tsx, /src/index.css, /src/pages/StatsPage.tsx, /src/pages/LogPage.tsx, /src/pages/ManagementPage.tsx
+2026-02-23 15:53:00 -05:00: 3:53:00 PM [vite] hmr update /src/pages/EntryPage.tsx, /src/index.css, /src/pages/StatsPage.tsx, /src/pages/LogPage.tsx, /src/pages/ManagementPage.tsx
+2026-02-23 15:53:02 -05:00: 3:53:02 PM [vite] hmr update /src/pages/EntryPage.tsx, /src/index.css, /src/pages/StatsPage.tsx, /src/pages/LogPage.tsx, /src/pages/ManagementPage.tsx
+2026-02-23 15:53:03 -05:00: 3:53:03 PM [vite] hmr update /src/pages/LogPage.tsx, /src/index.css
+2026-02-23 15:53:20 -05:00: 3:53:20 PM [vite] hmr update /src/pages/LogPage.tsx, /src/index.css
+2026-02-23 15:55:10 -05:00: 
+2026-02-23 15:55:10 -05:00: > time-tracker@0.0.0 dev
+2026-02-23 15:55:10 -05:00: > vite --host
+2026-02-23 15:55:10 -05:00: 
+2026-02-23 15:55:10 -05:00: 
+2026-02-23 15:55:10 -05:00:   VITE v5.4.21  ready in 124 ms
+2026-02-23 15:55:10 -05:00: 
+2026-02-23 15:55:10 -05:00:   ➜  Local:   http://localhost:6969/
+2026-02-23 15:55:10 -05:00:   ➜  Network: http://100.69.34.89:6969/
+2026-02-23 15:57:41 -05:00: 3:57:41 PM [vite] hmr update /src/pages/LogPage.tsx, /src/index.css
+2026-02-23 15:57:48 -05:00: 3:57:48 PM [vite] hmr update /src/pages/LogPage.tsx, /src/index.css
+2026-02-23 15:58:01 -05:00: 3:58:01 PM [vite] hmr update /src/pages/LogPage.tsx, /src/index.css

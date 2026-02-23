@@ -174,7 +174,7 @@ export const sortEntriesNewestFirst = (entries: TimeEntry[]): TimeEntry[] => {
   });
 };
 
-const getWeekBounds = (isoDate: string): { weekStart: string; weekEnd: string } | null => {
+export const getWeekBounds = (isoDate: string): { weekStart: string; weekEnd: string } | null => {
   const date = parseDateString(isoDate);
   if (!date) {
     return null;

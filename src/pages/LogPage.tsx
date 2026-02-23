@@ -1,8 +1,8 @@
-import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useState } from 'react';
+import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { MarkdownEditor } from '../components/MarkdownEditor';
 import { MarkdownPreview } from '../components/MarkdownPreview';
 import { getEntries, removeEntry, updateEntry } from '../lib/storage';
-import { calculateDuration, formatDate, formatDuration, formatTimeRange, sortEntriesNewestFirst } from '../lib/utils';
+import { calculateDuration, formatDate, formatDuration, formatTimeRange, formatWeekRange, getWeekBounds, sortEntriesNewestFirst } from '../lib/utils';
 import type { TimeEntry } from '../types';
 
 interface EditDraft {
@@ -265,6 +265,95 @@ const LogCard = ({
   );
 };
 
+interface WeekSectionProps {
+  group: { weekStart: string; weekEnd: string; entries: TimeEntry[] };
+  defaultOpen: boolean;
+  entries: TimeEntry[];
+  editingEntryId: string | null;
+  editDraft: EditDraft | null;
+  onDelete: (id: string) => void;
+  onStartEdit: (id: string) => void;
+  onCancelEdit: () => void;
+  onChange: (field: keyof EditDraft, value: string) => void;
+  onSave: () => void;
+}
+
+const WeekSection = ({
+  group,
+  defaultOpen,
+  entries,
+  editingEntryId,
+  editDraft,
+  onDelete,
+  onStartEdit,
+  onCancelEdit,
+  onChange,
+  onSave,
+}: WeekSectionProps): JSX.Element => {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [contentHeight, setContentHeight] = useState<number | undefined>(undefined);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      setContentHeight(contentRef.current.scrollHeight);
+    }
+  }, [entries, editingEntryId]);
+
+  const toggle = useCallback(() => setIsOpen((prev) => !prev), []);
+
+  return (
+    <section>
+      <button
+        type="button"
+        onClick={toggle}
+        className="mb-4 flex w-full items-center gap-3 text-left focus:outline-none focus:ring-2 focus:ring-neutral-500/40 rounded-lg px-1 py-1"
+      >
+        <svg
+          className={`h-4 w-4 shrink-0 text-neutral-500 transition-transform duration-200 ${isOpen ? 'rotate-90' : ''}`}
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fillRule="evenodd"
+            d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+            clipRule="evenodd"
+          />
+        </svg>
+        <h2 className="text-lg font-semibold tracking-wide text-neutral-300">
+          {group.weekStart && group.weekEnd
+            ? formatWeekRange(group.weekStart, group.weekEnd)
+            : 'Unknown Week'}
+        </h2>
+        <span className="text-sm text-neutral-600">
+          {group.entries.length} {group.entries.length === 1 ? 'entry' : 'entries'}
+        </span>
+      </button>
+      <div
+        ref={contentRef}
+        className="overflow-hidden transition-[max-height] duration-300 ease-in-out"
+        style={{ maxHeight: isOpen ? (contentHeight ?? 'none') : 0 }}
+      >
+        <div className="space-y-5">
+          {entries.map((entry) => (
+            <LogCard
+              key={entry.id}
+              entry={entry}
+              onDelete={onDelete}
+              onStartEdit={onStartEdit}
+              onCancelEdit={onCancelEdit}
+              onChange={onChange}
+              onSave={onSave}
+              isEditing={editingEntryId === entry.id}
+              draft={editingEntryId === entry.id ? editDraft : null}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const LogPage = (): JSX.Element => {
   const [entries, setEntries] = useState<TimeEntry[]>([]);
   const [editingEntryId, setEditingEntryId] = useState<string | null>(null);
@@ -386,6 +475,30 @@ export const LogPage = (): JSX.Element => {
   }, [editDraft, editingEntryId, entries]);
 
 
+  const weekGroups = useMemo(() => {
+    const groups: { weekStart: string; weekEnd: string; entries: TimeEntry[] }[] = [];
+    const weekMap = new Map<string, { weekStart: string; weekEnd: string; entries: TimeEntry[] }>();
+
+    for (const entry of entries) {
+      const bounds = getWeekBounds(entry.date);
+      const key = bounds?.weekStart ?? 'unknown';
+      const existing = weekMap.get(key);
+      if (existing) {
+        existing.entries.push(entry);
+      } else {
+        const group = {
+          weekStart: bounds?.weekStart ?? '',
+          weekEnd: bounds?.weekEnd ?? '',
+          entries: [entry],
+        };
+        weekMap.set(key, group);
+        groups.push(group);
+      }
+    }
+
+    return groups;
+  }, [entries]);
+
   return (
     <main className="min-h-[calc(100vh-4rem)] flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-4xl space-y-6">
@@ -401,18 +514,20 @@ export const LogPage = (): JSX.Element => {
             No entries yet. Create one from the New Entry page.
           </div>
         ) : (
-          <div className="space-y-5">
-            {entries.map((entry) => (
-              <LogCard
-                key={entry.id}
-                entry={entry}
+          <div className="space-y-10">
+            {weekGroups.map((group, index) => (
+              <WeekSection
+                key={group.weekStart || 'unknown'}
+                group={group}
+                defaultOpen={index === 0}
+                entries={group.entries}
+                editingEntryId={editingEntryId}
+                editDraft={editDraft}
                 onDelete={handleDeleteEntry}
                 onStartEdit={handleStartEdit}
                 onCancelEdit={handleCancelEdit}
                 onChange={handleDraftChange}
                 onSave={handleSaveEdit}
-                isEditing={editingEntryId === entry.id}
-                draft={editingEntryId === entry.id ? editDraft : null}
               />
             ))}
           </div>
