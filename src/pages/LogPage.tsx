@@ -302,6 +302,10 @@ const WeekSection = ({
 
   const toggle = useCallback(() => setIsOpen((prev) => !prev), []);
 
+  const weekLabel = group.weekStart && group.weekEnd
+    ? formatWeekRange(group.weekStart, group.weekEnd)
+    : 'Unknown Week';
+
   return (
     <section>
       <button
@@ -321,33 +325,46 @@ const WeekSection = ({
           />
         </svg>
         <h2 className="text-lg font-semibold tracking-wide text-neutral-300">
-          {group.weekStart && group.weekEnd
-            ? formatWeekRange(group.weekStart, group.weekEnd)
-            : 'Unknown Week'}
+          {weekLabel}
         </h2>
         <span className="text-sm text-neutral-600">
           {group.entries.length} {group.entries.length === 1 ? 'entry' : 'entries'}
         </span>
       </button>
-      <div
-        ref={contentRef}
-        className="overflow-hidden transition-[max-height] duration-300 ease-in-out"
-        style={{ maxHeight: isOpen ? (contentHeight ?? 'none') : 0 }}
-      >
-        <div className="space-y-5">
-          {entries.map((entry) => (
-            <LogCard
-              key={entry.id}
-              entry={entry}
-              onDelete={onDelete}
-              onStartEdit={onStartEdit}
-              onCancelEdit={onCancelEdit}
-              onChange={onChange}
-              onSave={onSave}
-              isEditing={editingEntryId === entry.id}
-              draft={editingEntryId === entry.id ? editDraft : null}
-            />
-          ))}
+      <div className="flex">
+        <div className="relative mr-5 shrink-0 overflow-visible" style={{ width: '1.5rem' }}>
+          {isOpen && (
+            <>
+              <div className="absolute left-1/2 top-0 h-full w-px bg-neutral-800" />
+              <span
+                className="absolute top-4 origin-top-left whitespace-nowrap text-sm font-semibold uppercase tracking-[0.25em] text-neutral-500"
+                style={{ transform: 'rotate(90deg) translateY(-50%)', left: '-0.125rem' }}
+              >
+                {weekLabel}
+              </span>
+            </>
+          )}
+        </div>
+        <div
+          ref={contentRef}
+          className="min-w-0 flex-1 overflow-hidden transition-[max-height] duration-300 ease-in-out"
+          style={{ maxHeight: isOpen ? (contentHeight ?? 'none') : 0 }}
+        >
+          <div className="space-y-5">
+            {entries.map((entry) => (
+              <LogCard
+                key={entry.id}
+                entry={entry}
+                onDelete={onDelete}
+                onStartEdit={onStartEdit}
+                onCancelEdit={onCancelEdit}
+                onChange={onChange}
+                onSave={onSave}
+                isEditing={editingEntryId === entry.id}
+                draft={editingEntryId === entry.id ? editDraft : null}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
