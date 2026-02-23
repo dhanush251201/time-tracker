@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "7ba21580-7abd-4dc9-900a-ae9c3d108c7a",
+    "courseName": "CDA",
+    "date": "2025-10-21",
+    "timeIn": "14:30",
+    "timeOut": "17:00",
+    "workMarkdown": "1. Attended the meeting\n2. Reviewed the course plan\n3. Started ideation for the flashcard app\n    1. Using react JS\n    2. Started writing the README file noting down all the ideas/features required",
+    "createdAt": "2025-10-28T07:10:25.293Z"
+  },
+  {
+    "id": "ef17b97c-be73-4a82-ae34-c34b73f24184",
+    "courseName": "CDA",
+    "date": "2025-10-22",
+    "timeIn": "16:00",
+    "timeOut": "18:00",
+    "workMarkdown": "1. Continued developing the README spec for the flashcard app",
+    "createdAt": "2025-10-28T07:11:32.784Z"
+  },
+  {
+    "id": "6f122878-e543-42a8-9ff3-fbd1d8875b1d",
+    "courseName": "CDA",
+    "date": "2025-10-23",
+    "timeIn": "15:00",
+    "timeOut": "17:00",
+    "workMarkdown": "1. Worked on improving the README before prompting.\n2. Used chatGPT to refine the README iteratively. Used it to make the README fall in line with the given spec\n3. Created the GitHub repo along with the required folder structure .\n4. Finalized the README. Ready to write prompt.\n",
+    "createdAt": "2025-10-28T07:12:02.786Z"
+  },
+  {
+    "id": "b550d2f3-1c25-44c0-9c24-1fcf239d8f17",
+    "courseName": "CDA",
+    "date": "2025-10-24",
+    "timeIn": "15:00",
+    "timeOut": "18:00",
+    "workMarkdown": "1. Finished the Canvas TA course material\n2. Refined the README and wrote the prompt for building the flashcards application.\n3. Using Codex to try building an application. Claude access will only be given on Monday\n    1. So I gave it a base prompt for it to build me the app. It gave me a base app that was quite decent. The backend needed a lot of work (it was not focused on in the initial prompt) and had a lot of errors. \n    2. Had to re-prompt with more context and information to get the backend working\n4. A base version of the app is working.\n    1. Create account / login is working\n    2. Creating a deck is still in progress\n5. Frontend is partly functional. Had to iteratively improve it using codex. Backend is being improved upon.",
+    "createdAt": "2025-10-28T07:12:29.930Z"
+  },
+  {
+    "id": "3b05f337-e0dc-422c-878b-ce9d64ad8c3a",
+    "courseName": "CDA",
+    "date": "2025-10-24",
+    "timeIn": "18:30",
+    "timeOut": "22:00",
+    "workMarkdown": "1. Finished the Canvas TA course material\n2. Refined the README and wrote the prompt for building the flashcards application.\n3. Using Codex to try building an application. Claude access will only be given on Monday\n    1. So I gave it a base prompt for it to build me the app. It gave me a base app that was quite decent. The backend needed a lot of work (it was not focused on in the initial prompt) and had a lot of errors. \n    2. Had to re-prompt with more context and information to get the backend working\n4. A base version of the app is working.\n    1. Create account / login is working\n    2. Creating a deck is still in progress\n5. Frontend is partly functional. Had to iteratively improve it using codex. Backend is being improved upon.",
+    "createdAt": "2025-10-28T07:12:49.061Z"
+  },
+  {
+    "id": "eacc8bb7-c243-47bd-8a34-9596c023e26a",
+    "courseName": "CDA",
+    "date": "2025-10-25",
+    "timeIn": "18:30",
+    "timeOut": "21:30",
+    "workMarkdown": "1. Debugged backend issue where the deck creation was failing and fixed\n2. Debugging why the cards are not changing and fixed\n3. Fixing UI issues and UI responsiveness",
+    "createdAt": "2025-10-28T07:13:19.849Z"
+  },
+  {
+    "id": "090826f3-5289-4ea4-94b3-f3ad7cc239a7",
+    "courseName": "CDA",
+    "date": "2025-10-27",
+    "timeIn": "14:00",
+    "timeOut": "17:30",
+    "workMarkdown": "1. Got access to Claude code\n2. Found an issue with the quiz page and fixed it\n3. Worked on improving the UI for the application and ensure pages look different from each other.",
+    "createdAt": "2025-10-28T07:14:39.643Z"
+  },
+  {
+    "id": "a7ae631b-0ac9-4b27-bc68-9f84d344f503",
+    "courseName": "CDA",
+    "date": "2025-10-27",
+    "timeIn": "21:29",
+    "timeOut": "23:59",
+    "workMarkdown": "1. Ensured functionality remained the same after the UI changes.\n2. Implemented different types of quizzes (Cloze and short answers)",
+    "createdAt": "2025-10-28T07:15:12.769Z"
+  },
+  {
+    "id": "bdae9390-3767-4454-8215-6516eeb7d3b9",
+    "courseName": "CDA",
+    "date": "2025-10-28",
+    "timeIn": "00:00",
+    "timeOut": "01:00",
+    "workMarkdown": "1. Improved UI usability for the same",
+    "createdAt": "2025-10-28T07:15:35.819Z"
+  },
+  {
+    "id": "33dfac50-a1e2-4047-b6ad-2e5a9f9dc17d",
+    "courseName": "CDA",
+    "date": "2025-10-28",
+    "timeIn": "12:00",
+    "timeOut": "13:30",
+    "workMarkdown": "1. Started creating the unit tests and CI pipeline\n",
+    "createdAt": "2025-10-28T18:20:51.212Z"
+  },
+  {
+    "id": "c5af86b0-25dd-4203-b768-487699a23690",
+    "courseName": "CDA",
+    "date": "2025-10-28",
+    "timeIn": "15:30",
+    "timeOut": "17:00",
+    "workMarkdown": "1. Frontend and backed tests work. Docker build test fails",
+    "createdAt": "2025-10-28T21:10:35.242Z"
+  },
+  {
+    "id": "588c1b78-eede-4242-9863-70c03c780b98",
+    "courseName": "CDA",
+    "date": "2025-10-28",
+    "timeIn": "18:30",
+    "timeOut": "20:30",
+    "workMarkdown": "1. Fixed the CI pipeline and deployed it along with unit tests",
+    "createdAt": "2025-10-29T00:32:57.704Z"
+  },
+  {
+    "id": "aa38abb1-670b-46ec-be71-b875100ef25a",
+    "courseName": "CDA",
+    "date": "2025-10-29",
+    "timeIn": "18:30",
+    "timeOut": "19:00",
+    "workMarkdown": "Spent time reading the course plan and added comments to concepts i want to help develop.",
+    "createdAt": "2025-10-29T23:28:53.019Z"
+  },
+  {
+    "id": "9163f204-c485-4aa1-9974-d55e792d6b52",
+    "courseName": "CDA",
+    "date": "2025-10-30",
+    "timeIn": "12:30",
+    "timeOut": "14:00",
+    "workMarkdown": "Added Streak functionality and improved user experience through UI Tweaks",
+    "createdAt": "2025-10-30T21:17:20.394Z"
+  },
+  {
+    "id": "335e97b7-fe23-4bbf-a2ba-9b708d6f6baf",
+    "courseName": "CDA",
+    "date": "2025-10-30",
+    "timeIn": "15:00",
+    "timeOut": "18:30",
+    "workMarkdown": "- Added Pinned Decks feature\n- Lost all backend DB data and recovered. No idea why the data was lost\n- Could not get decks to show up because code for pinned deck was causing issue.\n- In the end had to revert and go back to last working state\n",
+    "createdAt": "2025-10-30T21:18:11.133Z"
+  },
+  {
+    "id": "1761944759503-318872",
+    "courseName": "CDA",
+    "date": "2025-10-31",
+    "timeIn": "15:30",
+    "timeOut": "17:00",
+    "workMarkdown": "- Added Streak feature\n- Added Delete Deck feature\n- Tested all types of quiz available and ensured they work\n- Added Unit tests\n- Tests fail but could not fix as ran out of 5 hour limit",
+    "createdAt": "2025-10-31T21:05:59.503Z"
+  },
+  {
+    "id": "1762016132127-406849",
+    "courseName": "CDA",
+    "date": "2025-11-01",
+    "timeIn": "10:00",
+    "timeOut": "11:00",
+    "workMarkdown": "- Added practice mode quiz which runs infinitely and reveals number of right answers at the end\n- Added test cases and fixed CI issues",
+    "createdAt": "2025-11-01T16:55:32.127Z"
+  },
+  {
+    "id": "1762352422250-455006",
+    "courseName": "CDA",
+    "date": "2025-11-04",
+    "timeIn": "10:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Added Comprehensive logs\n- Did UI changes\n- Reviewed the course plan before meeting",
+    "createdAt": "2025-11-05T14:20:22.250Z"
+  },
+  {
+    "id": "1762352491687-373294",
+    "courseName": "CDA",
+    "date": "2025-11-04",
+    "timeIn": "15:15",
+    "timeOut": "16:45",
+    "workMarkdown": "- Attended the bi-weekly meeting\n- Fixed some errors in the documentation\n",
+    "createdAt": "2025-11-05T14:21:31.687Z"
+  },
+  {
+    "id": "1762352544985-842573",
+    "courseName": "CDA",
+    "date": "2025-11-05",
+    "timeIn": "09:00",
+    "timeOut": "10:00",
+    "workMarkdown": "- Worked on documentation\n- Fixed a few CI pipeline issues",
+    "createdAt": "2025-11-05T14:22:24.985Z"
+  },
+  {
+    "id": "1762373660378-93336",
+    "courseName": "CDA",
+    "date": "2025-11-05",
+    "timeIn": "13:00",
+    "timeOut": "15:00",
+    "workMarkdown": "- Started adding the AI powered cards feature\n- Added test cases for the same",
+    "createdAt": "2025-11-05T20:14:20.378Z"
+  },
+  {
+    "id": "1762379435000-487552",
+    "courseName": "CDA",
+    "date": "2025-11-05",
+    "timeIn": "15:00",
+    "timeOut": "18:00",
+    "workMarkdown": "- Using Ollama to generate questions\n- Integrated openAI but have not tested it\n- It is working well\n- Currently only generates basic flashcards\n",
+    "createdAt": "2025-11-05T21:50:35.000Z"
+  },
+  {
+    "id": "1762459486539-992065",
+    "courseName": "CDA",
+    "date": "2025-11-06",
+    "timeIn": "09:00",
+    "timeOut": "12:30",
+    "workMarkdown": "- Implemented feature : LLM can generate MCQs, short answer and Cloze\n- Added testcases\n- Added documentation",
+    "createdAt": "2025-11-06T20:04:46.539Z"
+  },
+  {
+    "id": "1762472267169-685337",
+    "courseName": "CDA",
+    "date": "2025-11-06",
+    "timeIn": "17:00",
+    "timeOut": "20:00",
+    "workMarkdown": "- Added activity feature\n- Started adding AI based answer checking\n- AI answer checker is working intermittently\n- Need to make it reliable",
+    "createdAt": "2025-11-06T23:37:47.169Z"
+  },
+  {
+    "id": "1762541372059-164305",
+    "courseName": "CDA",
+    "date": "2025-11-07",
+    "timeIn": "09:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Added Exam Mode\n- Added AI powered Answer checks for exam\n- Exams do not display basic questions, only ones which requires user to enter an answer\n",
+    "createdAt": "2025-11-07T18:49:32.059Z"
+  },
+  {
+    "id": "1762541439141-566950",
+    "courseName": "CDA",
+    "date": "2025-11-07",
+    "timeIn": "13:00",
+    "timeOut": "14:00",
+    "workMarkdown": "- Added documentation for the same along with testcases\n- Fixed issues with new testcases in CI pipeline",
+    "createdAt": "2025-11-07T18:50:39.141Z"
+  },
+  {
+    "id": "9ab6de29-5215-434d-91ac-67badf9f1d90",
+    "courseName": "CDA",
+    "date": "2025-11-10",
+    "timeIn": "13:00",
+    "timeOut": "16:30",
+    "workMarkdown": "Added OpenAI support ( user can use openAI api key instead of running ollama)\nFixed Cloze type AI question generation \nAdded test cases\nAdded edit deck feature",
+    "createdAt": "2025-11-15T00:12:31.839Z"
+  },
+  {
+    "id": "7acdb01b-be9a-4622-8063-8345d0081b30",
+    "courseName": "CDA",
+    "date": "2025-11-11",
+    "timeIn": "15:15",
+    "timeOut": "17:45",
+    "workMarkdown": "Attended meeting\nWorked on fixing some issues in the application",
+    "createdAt": "2025-11-15T00:13:02.693Z"
+  },
+  {
+    "id": "ac970f79-fa9a-427f-bd4c-6109daf64c00",
+    "courseName": "CDA",
+    "date": "2025-11-12",
+    "timeIn": "15:00",
+    "timeOut": "17:30",
+    "workMarkdown": "Started creating minimal version of flash cards app",
+    "createdAt": "2025-11-15T00:13:29.977Z"
+  },
+  {
+    "id": "30fb35b5-07ca-4d7d-a218-0771f31b0412",
+    "courseName": "CDA",
+    "date": "2025-11-13",
+    "timeIn": "12:30",
+    "timeOut": "17:00",
+    "workMarkdown": "Implemented the flagging a card feature on the main app",
+    "createdAt": "2025-11-15T00:13:58.467Z"
+  },
+  {
+    "id": "d448278b-a25c-4ac1-93e5-1839ead1717b",
+    "courseName": "CDA",
+    "date": "2025-11-13",
+    "timeIn": "18:00",
+    "timeOut": "19:00",
+    "workMarkdown": "Continued creating minimal version (hit Claude limit)",
+    "createdAt": "2025-11-15T00:14:24.927Z"
+  },
+  {
+    "id": "5a87e399-15bf-4a73-8811-f99831c0fee8",
+    "courseName": "CDA",
+    "date": "2025-11-13",
+    "timeIn": "22:29",
+    "timeOut": "23:59",
+    "workMarkdown": "Finished creating minimal version of app",
+    "createdAt": "2025-11-15T00:14:57.598Z"
+  },
+  {
+    "id": "6abf0270-4110-49d6-950c-4f842f23a343",
+    "courseName": "CDA",
+    "date": "2025-11-14",
+    "timeIn": "00:00",
+    "timeOut": "02:30",
+    "workMarkdown": "Finished creating minimal version of app",
+    "createdAt": "2025-11-15T00:15:14.850Z"
+  },
+  {
+    "id": "5269a993-0ac7-4611-b134-825bab8ef370",
+    "courseName": "CDA",
+    "date": "2025-11-14",
+    "timeIn": "20:30",
+    "timeOut": "22:30",
+    "workMarkdown": "- Fixed issues in the minimal version\n- Ensured full version can run after a fresh clone\n- Started creating documentation for probable tasks on the minimal repository",
+    "createdAt": "2025-11-15T04:32:11.417Z"
+  },
+  {
+    "id": "014398da-1e80-4ff0-b77e-9c45d4cd466b",
+    "courseName": "CDA",
+    "date": "2025-11-18",
+    "timeIn": "15:15",
+    "timeOut": "18:45",
+    "workMarkdown": "1. Attended meeting\n2. Worked on creating the milestones list for minimal version of app",
+    "createdAt": "2025-11-19T17:17:04.511Z"
+  },
+  {
+    "id": "f2518b46-58af-4f04-ae2c-70724e4ca741",
+    "courseName": "CDA",
+    "date": "2025-11-19",
+    "timeIn": "12:00",
+    "timeOut": "15:00",
+    "workMarkdown": "1. Started creating the course material for model and system cards",
+    "createdAt": "2025-11-19T17:17:59.916Z"
+  },
+  {
+    "id": "04d28631-3857-41ef-a5a2-01be89c97386",
+    "courseName": "CDA",
+    "date": "2025-11-20",
+    "timeIn": "16:30",
+    "timeOut": "21:30",
+    "workMarkdown": "1. Finalised the content for the PPT\n2. Created the PPT",
+    "createdAt": "2025-11-21T01:16:37.437Z"
+  },
+  {
+    "id": "b10b1ea1-6866-4270-96bf-98298afba258",
+    "courseName": "CDA",
+    "date": "2025-11-19",
+    "timeIn": "21:30",
+    "timeOut": "23:30",
+    "workMarkdown": "1. Worked on refining the material",
+    "createdAt": "2025-11-21T01:17:39.559Z"
+  },
+  {
+    "id": "a786bf9f-75d3-4ea5-87a1-24184ab04df2",
+    "courseName": "CDA",
+    "date": "2025-11-19",
+    "timeIn": "18:00",
+    "timeOut": "20:00",
+    "workMarkdown": "1.  Created model card and system card for the flashcards app.\nUsed both claude and ChatGPT to generate model card and system card for the flashcards app. Ended up using the GPT version.",
+    "createdAt": "2025-11-21T01:42:42.418Z"
+  },
+  {
+    "id": "9c080c86-ed6e-4b42-8702-fafa24c0e487",
+    "courseName": "CDA",
+    "date": "2025-11-21",
+    "timeIn": "10:30",
+    "timeOut": "15:00",
+    "workMarkdown": "1. Worked on creating course material and slides for \"Responsible AI\"\n2. Verified the content and created the presentation",
+    "createdAt": "2025-11-21T20:05:05.243Z"
+  },
+  {
+    "id": "af42bfc7-af2f-42a1-bc64-87cef6483044",
+    "courseName": "CDA",
+    "date": "2025-11-25",
+    "timeIn": "15:15",
+    "timeOut": "18:45",
+    "workMarkdown": "- Attended meeting\n- worked on revised milestones\n- Started working on \"UX for AI\" presentation material",
+    "createdAt": "2025-11-28T17:59:03.979Z"
+  },
+  {
+    "id": "5e1049c6-225d-4ddb-add8-94f1e693ebc2",
+    "courseName": "CDA",
+    "date": "2025-11-26",
+    "timeIn": "10:30",
+    "timeOut": "14:00",
+    "workMarkdown": "- Re formatted slides using the template\n- Started adding more depth to Responsible AI ppt in terms of licensing\n",
+    "createdAt": "2025-11-28T23:00:22.737Z"
+  },
+  {
+    "id": "2dd01bcc-3350-4f5f-8fc3-424f684a2955",
+    "courseName": "CDA",
+    "date": "2025-11-27",
+    "timeIn": "12:00",
+    "timeOut": "16:00",
+    "workMarkdown": "- Added depth to Responsible AI PPT\n- Continued creating course material for UX for AI",
+    "createdAt": "2025-11-28T23:08:29.278Z"
+  },
+  {
+    "id": "7a9c83e4-9cc6-41d8-8847-c480e70305ad",
+    "courseName": "CDA",
+    "date": "2025-11-28",
+    "timeIn": "10:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Gathered data on UX for AI",
+    "createdAt": "2025-11-30T05:02:43.655Z"
+  },
+  {
+    "id": "8fadc3a1-822e-455f-962f-b3b11bc97d46",
+    "courseName": "CDA",
+    "date": "2025-11-28",
+    "timeIn": "15:30",
+    "timeOut": "17:30",
+    "workMarkdown": "- Continued Gathering data and started the PPT for UX for AI",
+    "createdAt": "2025-11-30T05:03:10.655Z"
+  },
+  {
+    "id": "e7dc75e2-7798-47cf-a6d8-90c7eabdd632",
+    "courseName": "CDA",
+    "date": "2025-11-29",
+    "timeIn": "10:30",
+    "timeOut": "13:30",
+    "workMarkdown": "- Gathered references and links for UX for AI\n- Started creating the PPT\n- Started creating Markdown notes for previous topics with more depth",
+    "createdAt": "2025-11-30T05:04:15.564Z"
+  },
+  {
+    "id": "ddafd54b-7bc5-4f23-bb12-20e04c65ac81",
+    "courseName": "CDA",
+    "date": "2025-11-29",
+    "timeIn": "17:00",
+    "timeOut": "19:00",
+    "workMarkdown": "- Finalised the material for UX for AI\n- Revised the material for the previous topics and created notes as MD for all\n- Finished the PPTs",
+    "createdAt": "2025-11-30T05:06:51.015Z"
+  },
+  {
+    "id": "77f4285d-a74f-46f7-9062-6af265a746f6",
+    "courseName": "CDA",
+    "date": "2025-12-02",
+    "timeIn": "15:15",
+    "timeOut": "18:45",
+    "workMarkdown": "- Attended meeting\n- Worked on improving the PPT\n- Started removing redundant info",
+    "createdAt": "2025-12-08T20:06:47.931Z"
+  },
+  {
+    "id": "dd4c5493-ed27-438a-b19a-ba419458b407",
+    "courseName": "CDA",
+    "date": "2025-12-03",
+    "timeIn": "13:00",
+    "timeOut": "16:30",
+    "workMarkdown": "- Removed redundant info\n- Created notes for UX for AI",
+    "createdAt": "2025-12-08T20:07:29.363Z"
+  },
+  {
+    "id": "44966310-bb08-491f-bc48-c4c08df3e783",
+    "courseName": "CDA",
+    "date": "2025-12-04",
+    "timeIn": "10:30",
+    "timeOut": "13:00",
+    "workMarkdown": "- Started collecting notes for Red Teaming",
+    "createdAt": "2025-12-08T20:08:47.609Z"
+  },
+  {
+    "id": "2090ba12-f702-4740-be7d-92a8b3ac6efc",
+    "courseName": "CDA",
+    "date": "2025-12-04",
+    "timeIn": "16:30",
+    "timeOut": "19:00",
+    "workMarkdown": "- Finished collecting noted for Red Teaming and reviewed using GPT",
+    "createdAt": "2025-12-08T20:09:27.441Z"
+  },
+  {
+    "id": "94ed3762-9901-4a05-97d9-2a90fb563feb",
+    "courseName": "CDA",
+    "date": "2025-12-05",
+    "timeIn": "11:30",
+    "timeOut": "14:30",
+    "workMarkdown": "- created PPT for Red Teaming",
+    "createdAt": "2025-12-08T20:10:23.872Z"
+  },
+  {
+    "id": "df097343-1b1a-4e80-a8de-3ccc0b94ec7a",
+    "courseName": "CDA",
+    "date": "2025-12-05",
+    "timeIn": "19:30",
+    "timeOut": "23:00",
+    "workMarkdown": "- Started making notes for Packaging for Employers",
+    "createdAt": "2025-12-08T20:11:13.337Z"
+  },
+  {
+    "id": "fe4e4bf2-f042-4a30-926e-d97a4bd7d2ff",
+    "courseName": "CDA",
+    "date": "2025-12-07",
+    "timeIn": "13:30",
+    "timeOut": "15:00",
+    "workMarkdown": "- Finished collecting notes for Packaging",
+    "createdAt": "2025-12-08T20:11:43.853Z"
+  },
+  {
+    "id": "aa5911ba-f01c-40a0-8533-631dab0f5cb7",
+    "courseName": "CDA",
+    "date": "2025-12-08",
+    "timeIn": "15:00",
+    "timeOut": "18:00",
+    "workMarkdown": "- Created PPT for packaging for Employers\n- Started planning a hands on activity for the same (not very feasible, instead will create a documentation)",
+    "createdAt": "2025-12-08T20:12:53.546Z"
+  },
+  {
+    "id": "134eb480-0834-472b-a94d-4d751436e04c",
+    "courseName": "CDA",
+    "date": "2025-12-10",
+    "timeIn": "08:30",
+    "timeOut": "13:00",
+    "workMarkdown": "- Viewed meeting recording\n- Planned for improving PPTs with more illustrations\n- Searched for images for the presentations",
+    "createdAt": "2025-12-15T04:20:31.373Z"
+  },
+  {
+    "id": "69533231-763f-44d9-827f-3327797b9629",
+    "courseName": "CDA",
+    "date": "2025-12-10",
+    "timeIn": "16:30",
+    "timeOut": "21:00",
+    "workMarkdown": "- Improved the content in the slides and aded more details",
+    "createdAt": "2025-12-15T06:50:19.091Z"
+  },
+  {
+    "id": "07354e1e-89ea-40f0-a88c-c7c365d8a6bf",
+    "courseName": "CDA",
+    "date": "2025-12-11",
+    "timeIn": "20:30",
+    "timeOut": "23:30",
+    "workMarkdown": "- Started adding images to the slides",
+    "createdAt": "2025-12-15T06:50:54.725Z"
+  },
+  {
+    "id": "62f5246f-cc43-414f-a151-addc6b52ce99",
+    "courseName": "CDA",
+    "date": "2025-12-13",
+    "timeIn": "12:00",
+    "timeOut": "15:00",
+    "workMarkdown": "- Finished adding images to slides",
+    "createdAt": "2025-12-15T06:53:11.679Z"
+  },
+  {
+    "id": "09d47e55-b0e2-4946-b5c8-6af8c61998b3",
+    "courseName": "CDA",
+    "date": "2025-12-13",
+    "timeIn": "21:00",
+    "timeOut": "23:00",
+    "workMarkdown": "- Started working on creating the material / documentation for packaging for Employers",
+    "createdAt": "2025-12-15T06:54:08.841Z"
+  },
+  {
+    "id": "a2803e67-9718-41cb-aaed-b6d53912c670",
+    "courseName": "CDA",
+    "date": "2025-12-19",
+    "timeIn": "09:00",
+    "timeOut": "10:30",
+    "workMarkdown": "- Watched meeting recording\n- Finished mandatory course",
+    "createdAt": "2025-12-19T05:13:38.774Z"
+  },
+  {
+    "id": "0aa1fd78-0e07-4c71-9932-f93b00d622ed",
+    "courseName": "CDA",
+    "date": "2025-12-21",
+    "timeIn": "18:59",
+    "timeOut": "23:59",
+    "workMarkdown": "Creating script for tutorial videos",
+    "createdAt": "2025-12-22T04:19:01.719Z"
+  },
+  {
+    "id": "ae789cfb-c6a7-49a9-b7b6-d7c525de5929",
+    "courseName": "CDA",
+    "date": "2025-12-20",
+    "timeIn": "12:00",
+    "timeOut": "15:30",
+    "workMarkdown": "Explore claude and use it to clean up minimal-flashcards app and the full flashcards app\nThe app was not running so had to troubleshoot it. It had no issue but it was an environment problem.",
+    "createdAt": "2025-12-22T04:43:37.592Z"
+  },
+  {
+    "id": "a01ea35e-ffd0-4472-ba8e-e5df0a15a590",
+    "courseName": "CDA",
+    "date": "2025-12-20",
+    "timeIn": "18:00",
+    "timeOut": "21:00",
+    "workMarkdown": "Explore claude and use it to clean up minimal-flashcards app and the full flashcards app\nThe app was not running so had to troubleshoot it. It had no issue but it was an environment problem.",
+    "createdAt": "2025-12-22T04:45:25.787Z"
+  },
+  {
+    "id": "8592979f-5085-44f4-bcb4-4086b7851f2a",
+    "courseName": "CDA",
+    "date": "2025-12-19",
+    "timeIn": "15:00",
+    "timeOut": "18:00",
+    "workMarkdown": "Used claude to test the flashcards app. Failing testcases were fixed. At the end of which the app stopped working",
+    "createdAt": "2025-12-22T04:55:53.624Z"
+  },
+  {
+    "id": "a0e55ab9-b98f-43de-9adc-a04a09587ddf",
+    "courseName": "CDA",
+    "date": "2025-12-23",
+    "timeIn": "08:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Tested minimal flashdecks app. It was not running from scratch when following documentation. Troubleshooting it to fix it",
+    "createdAt": "2025-12-23T05:54:39.208Z"
+  },
+  {
+    "id": "cb540760-d9ce-499b-825d-9cf592c1247a",
+    "courseName": "CDA",
+    "date": "2025-12-24",
+    "timeIn": "08:30",
+    "timeOut": "14:00",
+    "workMarkdown": "- Creating the script for the tutorial",
+    "createdAt": "2025-12-24T04:13:10.272Z"
+  },
+  {
+    "id": "ea946a8e-d9ff-4d97-ac0b-88b13387098e",
+    "courseName": "CDA",
+    "date": "2025-12-24",
+    "timeIn": "15:30",
+    "timeOut": "20:30",
+    "workMarkdown": "- Troubleshooting flashcards app done",
+    "createdAt": "2025-12-24T04:13:43.321Z"
+  },
+  {
+    "id": "80d81424-36e3-4e1e-911f-462ed69691ba",
+    "courseName": "CDA",
+    "date": "2025-12-25",
+    "timeIn": "08:30",
+    "timeOut": "14:00",
+    "workMarkdown": "- Finished Creating Scripts and presentation",
+    "createdAt": "2025-12-24T04:14:24.000Z"
+  },
+  {
+    "id": "ef099623-7acc-4df8-9b17-4f46c1e12760",
+    "courseName": "CDA",
+    "date": "2026-01-02",
+    "timeIn": "09:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Started working on the tutorial documents content",
+    "createdAt": "2026-01-02T16:08:12.018Z"
+  },
+  {
+    "id": "bfe1711b-5264-482f-81d7-62de5c15d301",
+    "courseName": "CDA",
+    "date": "2026-01-02",
+    "timeIn": "15:00",
+    "timeOut": "19:00",
+    "workMarkdown": "- Working on the tutorial documents content",
+    "createdAt": "2026-01-02T16:08:33.784Z"
+  },
+  {
+    "id": "41793f4f-ce61-4227-bdfa-aa7487d1eb66",
+    "courseName": "CDA",
+    "date": "2026-01-02",
+    "timeIn": "21:30",
+    "timeOut": "23:30",
+    "workMarkdown": "- Working on the tutorial documents content",
+    "createdAt": "2026-01-02T16:09:09.993Z"
+  },
+  {
+    "id": "0ac7fdcd-4b1e-417b-abe6-e451a223df6b",
+    "courseName": "CDA",
+    "date": "2026-01-03",
+    "timeIn": "10:00",
+    "timeOut": "11:00",
+    "workMarkdown": "- Did a trial run of the Minimal Flashcards app",
+    "createdAt": "2026-01-02T16:09:51.463Z"
+  },
+  {
+    "id": "f606eb83-8b82-4730-9b54-e26dbd5a5dbe",
+    "courseName": "CDA",
+    "date": "2026-01-03",
+    "timeIn": "13:30",
+    "timeOut": "16:30",
+    "workMarkdown": "- Finished one Tutorial Documentation",
+    "createdAt": "2026-01-04T14:58:44.393Z"
+  },
+  {
+    "id": "2a19a7fa-b7a0-4fa7-ad41-92b542027abb",
+    "courseName": "CDA",
+    "date": "2026-01-03",
+    "timeIn": "19:30",
+    "timeOut": "21:30",
+    "workMarkdown": "- Finished 2 more documents",
+    "createdAt": "2026-01-04T14:59:21.342Z"
+  },
+  {
+    "id": "e30018d6-5b80-4c9d-86b1-689da37244c1",
+    "courseName": "CDA",
+    "date": "2026-01-04",
+    "timeIn": "10:30",
+    "timeOut": "13:30",
+    "workMarkdown": "- Created 2 more documents",
+    "createdAt": "2026-01-04T15:00:06.776Z"
+  },
+  {
+    "id": "1c8fa294-3b5c-4b85-b948-1d2354a35064",
+    "courseName": "CDA",
+    "date": "2026-01-04",
+    "timeIn": "16:30",
+    "timeOut": "18:30",
+    "workMarkdown": "- Finished creating the final Docs. Only images are pending. \n- Added images for the first document",
+    "createdAt": "2026-01-04T15:00:50.638Z"
+  },
+  {
+    "id": "60a53095-2680-4a63-bed6-0de0bc188271",
+    "courseName": "CDA",
+    "date": "2026-01-06",
+    "timeIn": "13:00",
+    "timeOut": "16:30",
+    "workMarkdown": "- Watched meeting recording\n- Finished VS Code setup Document",
+    "createdAt": "2026-01-09T05:47:39.300Z"
+  },
+  {
+    "id": "7d102c0d-0481-4f41-9e69-7ef7081e8407",
+    "courseName": "CDA",
+    "date": "2026-01-07",
+    "timeIn": "10:30",
+    "timeOut": "13:30",
+    "workMarkdown": "Finished Claude integration Document",
+    "createdAt": "2026-01-09T05:48:07.841Z"
+  },
+  {
+    "id": "7c43b5d9-3f14-414a-a9cb-4ed05ed08195",
+    "courseName": "CDA",
+    "date": "2026-01-07",
+    "timeIn": "16:00",
+    "timeOut": "19:30",
+    "workMarkdown": "Finished Understanding the repository document",
+    "createdAt": "2026-01-09T05:49:01.525Z"
+  },
+  {
+    "id": "78986903-47f3-4302-a225-7eac560abea0",
+    "courseName": "CDA",
+    "date": "2026-01-07",
+    "timeIn": "20:30",
+    "timeOut": "23:00",
+    "workMarkdown": "Finished Running Locally Document",
+    "createdAt": "2026-01-09T05:49:35.458Z"
+  },
+  {
+    "id": "bae69149-a40e-4b33-af94-57ab8a8c49ae",
+    "courseName": "CDA",
+    "date": "2026-01-08",
+    "timeIn": "12:00",
+    "timeOut": "14:00",
+    "workMarkdown": "Finished Adding a feature Document",
+    "createdAt": "2026-01-09T05:50:25.458Z"
+  },
+  {
+    "id": "05c9398f-8336-4c07-bcf3-024daf85a00f",
+    "courseName": "CDA",
+    "date": "2026-01-08",
+    "timeIn": "18:30",
+    "timeOut": "21:00",
+    "workMarkdown": "Finished Writing Tests Document",
+    "createdAt": "2026-01-09T05:50:55.475Z"
+  },
+  {
+    "id": "e838baa1-e1a0-4bb4-ad5d-fd5bb39cf40b",
+    "courseName": "CDA",
+    "date": "2026-01-09",
+    "timeIn": "10:30",
+    "timeOut": "13:30",
+    "workMarkdown": "Finished the Git Documentation",
+    "createdAt": "2026-01-09T05:51:59.066Z"
+  },
+  {
+    "id": "c1bcf804-6087-41b2-89cd-0027f99db52c",
+    "courseName": "CDA",
+    "date": "2026-01-14",
+    "timeIn": "13:00",
+    "timeOut": "16:00",
+    "workMarkdown": "- Tested the minimal version of the flashcards app and started building it up according to the defined milestones",
+    "createdAt": "2026-01-17T11:50:02.853Z"
+  },
+  {
+    "id": "29df8dfa-3eaa-4e3d-858b-079f35e14d42",
+    "courseName": "CDA",
+    "date": "2026-01-14",
+    "timeIn": "19:00",
+    "timeOut": "21:00",
+    "workMarkdown": "- Finished testing the minimal version of the flashcards app",
+    "createdAt": "2026-01-17T11:50:29.819Z"
+  },
+  {
+    "id": "32e8ee83-71dc-4dea-9894-8e14a17a1dca",
+    "courseName": "CDA",
+    "date": "2026-01-15",
+    "timeIn": "10:00",
+    "timeOut": "14:00",
+    "workMarkdown": "- Worked on minimal flashcards app. Was not working as there were broken dependencies",
+    "createdAt": "2026-01-22T23:10:07.620Z"
+  },
+  {
+    "id": "56db3798-553c-4194-b33e-c0f8d3b3a84e",
+    "courseName": "CDA",
+    "date": "2026-01-15",
+    "timeIn": "15:00",
+    "timeOut": "19:00",
+    "workMarkdown": "- Worked on minimal flashcards app. Was not working as there were broken dependencies",
+    "createdAt": "2026-01-22T23:10:23.386Z"
+  },
+  {
+    "id": "7a2759cd-8887-40fd-96e0-7fa9e2551943",
+    "courseName": "CDA",
+    "date": "2026-01-16",
+    "timeIn": "14:00",
+    "timeOut": "17:00",
+    "workMarkdown": "- Fixed the dependency issue but there is a lot of unnecessary code. Manually removing unnecessary portions",
+    "createdAt": "2026-01-22T23:11:13.744Z"
+  },
+  {
+    "id": "a60458ce-6977-47b9-8d7f-769efbd1ad21",
+    "courseName": "CDA",
+    "date": "2026-01-16",
+    "timeIn": "19:00",
+    "timeOut": "21:00",
+    "workMarkdown": "- Fixed the dependency issue but there is a lot of unnecessary code. Manually removing unnecessary portions",
+    "createdAt": "2026-01-22T23:11:28.366Z"
+  },
+  {
+    "id": "668bfde3-577d-462f-9157-482db48d0b87",
+    "courseName": "CDA",
+    "date": "2026-01-17",
+    "timeIn": "13:00",
+    "timeOut": "15:00",
+    "workMarkdown": "- There are pending issues. Will redo the minimal flashcards app from scratch as it is easier",
+    "createdAt": "2026-01-22T23:12:21.256Z"
+  },
+  {
+    "id": "d2e43114-29a0-4222-916a-b13e75207ca5",
+    "courseName": "CDA",
+    "date": "2026-01-20",
+    "timeIn": "15:00",
+    "timeOut": "18:00",
+    "workMarkdown": "- Attended meeting\n- Watched recording of previous meeting\n- Started working on the new flashcards app",
+    "createdAt": "2026-01-22T23:16:23.715Z"
+  },
+  {
+    "id": "f9b0a5c8-9246-4e2d-9f9f-741cee9068c1",
+    "courseName": "CDA",
+    "date": "2026-01-21",
+    "timeIn": "10:00",
+    "timeOut": "14:00",
+    "workMarkdown": "- Worked on the initial functionality of the flashcards app.",
+    "createdAt": "2026-01-22T23:21:25.112Z"
+  },
+  {
+    "id": "85419e90-cabc-4bd4-841a-ba438004da53",
+    "courseName": "CDA",
+    "date": "2026-01-21",
+    "timeIn": "17:00",
+    "timeOut": "21:00",
+    "workMarkdown": "- Got the Landing page and Dashboard done fully",
+    "createdAt": "2026-01-23T00:33:43.286Z"
+  },
+  {
+    "id": "5c0ed238-a8ce-4cbb-9331-a118f5464db5",
+    "courseName": "CDA",
+    "date": "2026-01-22",
+    "timeIn": "09:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Decks implemented, cards pending",
+    "createdAt": "2026-01-23T00:34:45.869Z"
+  },
+  {
+    "id": "55bfc50a-b708-4c16-acf8-db77583c5fd2",
+    "courseName": "CDA",
+    "date": "2026-01-22",
+    "timeIn": "17:00",
+    "timeOut": "20:00",
+    "workMarkdown": "- Initial version of the app is ready and working.",
+    "createdAt": "2026-01-23T00:35:21.259Z"
+  },
+  {
+    "id": "666d4d9b-c0d5-4f35-a418-5291465842d6",
+    "courseName": "CDa",
+    "date": "2026-01-23",
+    "timeIn": "11:00",
+    "timeOut": "14:00",
+    "workMarkdown": "- Tested the app and fixed visual issues. Improved the look of the landing page\n",
+    "createdAt": "2026-01-23T00:36:25.643Z"
+  },
+  {
+    "id": "5fe68a96-ba4e-4a2f-9f60-dddf8c45c880",
+    "courseName": "CDA",
+    "date": "2026-01-27",
+    "timeIn": "15:15",
+    "timeOut": "17:45",
+    "workMarkdown": "- Attended meeting\n- Started reviewing my older presentations and fixing any issues",
+    "createdAt": "2026-01-30T19:29:18.042Z"
+  },
+  {
+    "id": "87e19cbc-3d2e-44b8-b7c5-bdad3c38c35a",
+    "courseName": "CDA",
+    "date": "2026-01-27",
+    "timeIn": "20:00",
+    "timeOut": "23:30",
+    "workMarkdown": "- Verified the minimal version of the app is working completely\n- Created the new milestones documentation for the new version of the app",
+    "createdAt": "2026-01-30T19:30:10.076Z"
+  },
+  {
+    "id": "6883cea7-b798-4f68-b78e-c5dc91e68abf",
+    "courseName": "CDA",
+    "date": "2026-01-28",
+    "timeIn": "10:30",
+    "timeOut": "13:30",
+    "workMarkdown": "- Worked on creating Notes for Packaging and Containerization\n- Created a Video script with the same notes\n",
+    "createdAt": "2026-01-30T19:31:48.842Z"
+  },
+  {
+    "id": "2ab27e1b-134b-4653-9d5c-0202c124f7b8",
+    "courseName": "CDA",
+    "date": "2026-01-29",
+    "timeIn": "17:00",
+    "timeOut": "20:00",
+    "workMarkdown": "- Created presentation for Technical Communication",
+    "createdAt": "2026-01-31T21:58:10.213Z"
+  },
+  {
+    "id": "7d2f7813-a32d-4f1a-8693-94cffc25455c",
+    "courseName": "CDA",
+    "date": "2026-01-30",
+    "timeIn": "10:30",
+    "timeOut": "13:30",
+    "workMarkdown": "- Created a video scripts for technical communication ",
+    "createdAt": "2026-01-31T21:58:58.146Z"
+  },
+  {
+    "id": "d19a15b4-8046-4fdc-a05a-86a5bad6accf",
+    "courseName": "CDA",
+    "date": "2026-01-30",
+    "timeIn": "15:00",
+    "timeOut": "18:00",
+    "workMarkdown": "- Created a video scripts for technical communication",
+    "createdAt": "2026-01-31T22:24:14.744Z"
+  },
+  {
+    "id": "c5281778-3ec9-483e-90a9-dad8933527a2",
+    "courseName": "CDA",
+    "date": "2026-01-31",
+    "timeIn": "10:30",
+    "timeOut": "12:30",
+    "workMarkdown": "- Finished creating the scrips",
+    "createdAt": "2026-01-31T22:26:13.652Z"
+  },
+  {
+    "id": "020186bc-3574-4ba1-bfe0-06ee17336f2f",
+    "courseName": "CDA",
+    "date": "2026-02-03",
+    "timeIn": "15:00",
+    "timeOut": "19:00",
+    "workMarkdown": "- Attended meeting\n- Reviewed my own presentations",
+    "createdAt": "2026-02-10T17:40:56.374Z"
+  },
+  {
+    "id": "8e6b6403-bf90-473f-87b4-74218038ccb4",
+    "courseName": "CDA",
+    "date": "2026-02-04",
+    "timeIn": "10:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Started review of course plan\n",
+    "createdAt": "2026-02-10T17:41:24.957Z"
+  },
+  {
+    "id": "940f0914-2d98-4861-aae1-8214c11dc160",
+    "courseName": "CDA",
+    "date": "2026-02-04",
+    "timeIn": "19:00",
+    "timeOut": "21:00",
+    "workMarkdown": "- Completed review of course plan",
+    "createdAt": "2026-02-10T17:41:42.640Z"
+  },
+  {
+    "id": "31d6d4df-9624-44bf-bf62-ce788e0f03f0",
+    "courseName": "CDA",
+    "date": "2026-02-05",
+    "timeIn": "14:00",
+    "timeOut": "18:00",
+    "workMarkdown": "- Reviewed the milestones documentation",
+    "createdAt": "2026-02-10T19:32:04.966Z"
+  },
+  {
+    "id": "baea9082-209a-4efa-b295-fb088c54d0fc",
+    "courseName": "CDA",
+    "date": "2026-02-06",
+    "timeIn": "17:00",
+    "timeOut": "20:00",
+    "workMarkdown": "- Reviewed Pre-capstone process",
+    "createdAt": "2026-02-10T19:34:10.552Z"
+  },
+  {
+    "id": "40f25dd7-dd16-46c6-b4f4-7ef015a5cb62",
+    "courseName": "CDA",
+    "date": "2026-02-07",
+    "timeIn": "15:00",
+    "timeOut": "17:00",
+    "workMarkdown": "- Reviewed the milestones for the flashcards app\n",
+    "createdAt": "2026-02-10T19:40:05.566Z"
+  },
+  {
+    "id": "b9ed6ceb-3f30-4ded-91e4-4a8d75aa469d",
+    "courseName": "CDA",
+    "date": "2026-02-08",
+    "timeIn": "09:00",
+    "timeOut": "12:00",
+    "workMarkdown": "- Reviewed presentation and documents",
+    "createdAt": "2026-02-10T19:41:20.182Z"
+  },
+  {
+    "id": "5b577618-3cfc-473c-ad9a-20e7124f9627",
+    "courseName": "CDA",
+    "date": "2026-02-10",
+    "timeIn": "15:00",
+    "timeOut": "18:30",
+    "workMarkdown": "- Attended meeting and started reviewing pre-capstone docs",
+    "createdAt": "2026-02-15T22:25:26.137Z"
+  },
+  {
+    "id": "d98f8dfe-1a5d-4570-9643-85f629faf568",
+    "courseName": "CDA",
+    "date": "2026-02-11",
+    "timeIn": "10:00",
+    "timeOut": "13:00",
+    "workMarkdown": "- finished reviewing pre-capstone document\n- Started working on gathering content for \"Baselines: heuristics and off‑the‑shelf OSS models\"",
+    "createdAt": "2026-02-15T22:26:39.293Z"
+  },
+  {
+    "id": "66435d28-be7f-4403-91b8-93755f21184c",
+    "courseName": "CDA",
+    "date": "2026-02-11",
+    "timeIn": "16:00",
+    "timeOut": "19:30",
+    "workMarkdown": "- Finished collecting materials ",
+    "createdAt": "2026-02-15T22:27:09.755Z"
+  },
+  {
+    "id": "2462e711-ec18-478c-a943-326461e2a279",
+    "courseName": "CDA",
+    "date": "2026-02-12",
+    "timeIn": "18:30",
+    "timeOut": "21:30",
+    "workMarkdown": "- created presentation from the content",
+    "createdAt": "2026-02-15T22:27:47.422Z"
+  },
+  {
+    "id": "30f37304-fb2c-4f9e-beb6-b3f6f8948d93",
+    "courseName": "CDA",
+    "date": "2026-02-13",
+    "timeIn": "10:00",
+    "timeOut": "13:00",
+    "workMarkdown": "- Started creating a python notebook",
+    "createdAt": "2026-02-15T23:01:21.127Z"
+  },
+  {
+    "id": "b0350760-3319-4f2c-ad2f-79250d67315e",
+    "courseName": "CDA",
+    "date": "2026-02-13",
+    "timeIn": "20:30",
+    "timeOut": "22:30",
+    "workMarkdown": "- Created ipynb",
+    "createdAt": "2026-02-15T23:02:44.983Z"
+  },
+  {
+    "id": "1c253360-57d8-4140-a8e3-1d24f8dbbb40",
+    "courseName": "CDA",
+    "date": "2026-02-14",
+    "timeIn": "10:30",
+    "timeOut": "12:30",
+    "workMarkdown": "- Finished the ipynb",
+    "createdAt": "2026-02-15T23:03:18.284Z"
+  }
+]
